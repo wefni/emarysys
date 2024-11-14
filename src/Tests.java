@@ -8,7 +8,7 @@ public class Tests {
         DueDate test1 = new DueDate(LocalDateTime.of(2024, 11, 14, 9, 0),4);
         LocalDateTime expectedDueDate = LocalDateTime.of(2024, 11, 14, 13, 0);
 
-        assertEquals(expectedDueDate, test1.calculate());
+        assertEquals(expectedDueDate,test1.calculate());
     }
 
     @Test
